@@ -14,12 +14,26 @@ After training a model with CIFAR10, we test the model with a dataset we collect
 
 We trained a few models, but we selected models have a good performance as final models.
 
-- Res2Net50
-- SEResNext101
-- EfficientNet_b0
-- EfficientNet_lite2
-- EfficientNet
 - ResNet50
+
+It is a model used as a baseline in many studies.
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/76990589/206531713-d06be0a9-1e95-4c96-8c89-eed657ccade0.png">
+
+
+- Res2Net50
+
+
+
+- SEResNext101
+
+- EfficientNet_b0
+
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206531307-b4da829c-5b7c-4d75-b798-fc4dd6ed6326.png">
+
+- EfficientNet_lite2
+- EfficientNetV2
+
 
 ## Loss
 We believed that the how to train the model is as important as determining which the model to use.
