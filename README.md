@@ -65,7 +65,7 @@ We try to find an optimal combination for the 6 models selected above.
 
 The Confusion matrix for the ensemble model is as follows:
 
-<img width="387" alt="image" src="https://user-images.githubusercontent.com/76990589/206525302-ca73f102-6b11-4dfe-8f58-02cd76afc32b.png">
+<img width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206525302-ca73f102-6b11-4dfe-8f58-02cd76afc32b.png">
 
 **Visualization with Grad-CAM**
 
