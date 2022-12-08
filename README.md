@@ -43,13 +43,15 @@ So, we try to apply various loss functions about a multi-class classification.
 ## Ensemble
 The results of a single model are as follows:
 
-<img width="330" alt="image" src="https://user-images.githubusercontent.com/76990589/206513684-a438fd42-e65f-4683-82e0-046ef7dac8a1.png">
+<img width="367" alt="image" src="https://user-images.githubusercontent.com/76990589/206517124-5c8ac9b8-8d55-4817-9561-b3976072710d.png">
 
 Next, we check confusion matrixs of a single model, respectively.
 
 <img width="297" alt="image" src="https://user-images.githubusercontent.com/76990589/206514125-71f0dcf2-3fdb-468a-b7c0-ee4c9f65715b.png">
 
-we find that each model has the class
+we find that model has each power for classes, respectively.
+
+For example, 
 
 
 
