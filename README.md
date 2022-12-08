@@ -16,6 +16,10 @@ After training a model with CIFAR10, we test the model with a dataset we collect
 - EfficientNet
 
 ## Loss
+We believed that the how to train the model is as important as determining which the model to use.
+
+So, we try to adapt various loss functions.
+
 1. CrossEntropyLoss
 2. LabelSmoothing
 3. ElasticLoss
