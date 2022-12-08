@@ -63,13 +63,13 @@ We believed that the **how to train the model** is as important as determining w
 
 So, we try to apply various loss functions about a multi-class classification.
 
-### 1. CrossEntropyLoss
+- ### CrossEntropyLoss
   
   - <p align="center"><img width="755" alt="image" src="https://user-images.githubusercontent.com/76990589/206486514-d089d623-23fc-4991-bbcf-99cf129e060b.png">
 
 _____________________
 
-### 2. LabelSmoothing
+- ### LabelSmoothing
 
   - [When does label smoothing help?](https://proceedings.neurips.cc/paper/2019/hash/f1748d6b0fd9d439f71450117eba2725-Abstract.html)
   
@@ -77,7 +77,7 @@ _____________________
 
 _____________________
 
-### 3. ElasticLoss
+- ### ElasticLoss
 
   - [ElasticFace: Elastic Margin Loss for Deep Face Recognition](https://openaccess.thecvf.com/content/CVPR2022W/Biometrics/html/Boutros_ElasticFace_Elastic_Margin_Loss_for_Deep_Face_Recognition_CVPRW_2022_paper.html)
   
