@@ -24,6 +24,7 @@ So, we try to adapt various loss functions.
 2. LabelSmoothing
 3. ElasticLoss
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/76990589/206460495-4c710f51-7d25-41de-ae16-57c457e2cd7d.png">
+- The plot below shows the difference in performance according to the loss function
 <img width="322" alt="image" src="https://user-images.githubusercontent.com/76990589/206478140-ab5813b5-074f-473d-a4e8-a58c985b720c.png">
 
 
