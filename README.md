@@ -1,8 +1,10 @@
 # SML_project
+
 Team Project in Statistical machine learning 
 
 
 ## Intro
+
 All students collect 200 photos of their classes.
 
 After training a model with CIFAR10, we test the model with a dataset we collected.
@@ -44,6 +46,7 @@ So, we try to apply various loss functions about a multi-class classification.
 
 
 ## Ensemble
+
 The results of a single model are as follows:
 
 <img width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206517124-5c8ac9b8-8d55-4817-9561-b3976072710d.png">
@@ -74,3 +77,8 @@ The Confusion matrix for the ensemble model is as follows:
 
 ## Result
 
+As mentioned at the beginning, we used the 2400 data we collected as a test dataset to verify the performance.
+
+<img width="700" height="700" alt="image" src="https://user-images.githubusercontent.com/76990589/206528158-0dd359ac-8d5c-4906-b670-0d8f1832b6f4.png">
+
+Although the performance of a single model was poor, we show robustness in overall performance **because we implemented an ensemble.**
