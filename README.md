@@ -32,6 +32,8 @@ _____________________
 _____________________
 
 - ### ResNet
+  
+[Deep residual learning for image recognition](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html)
 
 It is a model used as a baseline in many studies.
 
@@ -41,12 +43,17 @@ _____________________
 
 - ### ResNext & Res2Net
 
+[Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/abs/1611.05431)
+[Res2net: A new multi-scale backbone architecture](https://ieeexplore.ieee.org/abstract/document/8821313)  
+  
 <p align="center"><img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532661-8eda6a12-5856-4947-beff-9c88db7cd3a3.png">
 
 _____________________
 
 - ### SEResNet
 
+[Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507)
+  
 <p align="center"><img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532809-cac890d6-fe44-498f-a516-c9c9b4d4f8bd.png">
 
 _____________________
@@ -57,19 +64,23 @@ We believed that the **how to train the model** is as important as determining w
 So, we try to apply various loss functions about a multi-class classification.
 
 ### 1. CrossEntropyLoss
-
+  
 <p align="center"><img width="755" alt="image" src="https://user-images.githubusercontent.com/76990589/206486514-d089d623-23fc-4991-bbcf-99cf129e060b.png">
 
 _____________________
 
 ### 2. LabelSmoothing
 
+[When does label smoothing help?](https://proceedings.neurips.cc/paper/2019/hash/f1748d6b0fd9d439f71450117eba2725-Abstract.html)
+  
 <p align="center"><img width="768" alt="image" src="https://user-images.githubusercontent.com/76990589/206486463-29cb0848-36a9-462e-ae91-73b032f4bf91.png">
 
 _____________________
 
 ### 3. ElasticLoss
 
+[ElasticFace: Elastic Margin Loss for Deep Face Recognition](https://openaccess.thecvf.com/content/CVPR2022W/Biometrics/html/Boutros_ElasticFace_Elastic_Margin_Loss_for_Deep_Face_Recognition_CVPRW_2022_paper.html)
+  
 <p align="center"><img width="720" alt="image" src="https://user-images.githubusercontent.com/76990589/206460495-4c710f51-7d25-41de-ae16-57c457e2cd7d.png">
 
 _____________________
