@@ -40,17 +40,17 @@ So, we try to apply various loss functions about a multi-class classification.
 
 - The plot below shows the difference in performance according to the loss function
 
-<img width="322" alt="image" src="https://user-images.githubusercontent.com/76990589/206478140-ab5813b5-074f-473d-a4e8-a58c985b720c.png">
+<img width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206478140-ab5813b5-074f-473d-a4e8-a58c985b720c.png">
 
 
 ## Ensemble
 The results of a single model are as follows:
 
-<img width="367" alt="image" src="https://user-images.githubusercontent.com/76990589/206517124-5c8ac9b8-8d55-4817-9561-b3976072710d.png">
+<img width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206517124-5c8ac9b8-8d55-4817-9561-b3976072710d.png">
 
 Next, we check confusion matrixs of a single model, respectively.
 
-<img width="297" alt="image" src="https://user-images.githubusercontent.com/76990589/206514125-71f0dcf2-3fdb-468a-b7c0-ee4c9f65715b.png">
+<img width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206514125-71f0dcf2-3fdb-468a-b7c0-ee4c9f65715b.png">
 
 We find that models have each power for classes, respectively.
 
@@ -61,7 +61,7 @@ On the contrary,  model B has a good performance for class "cat", but model A do
 Considering the characteristics of each model, we decided to make an ensemble model using soft voting.
 We try to find an optimal combination for the 6 models selected above.
 
-<img width="402" alt="image" src="https://user-images.githubusercontent.com/76990589/206524443-59ff9b98-fa5b-4ba3-a09d-7648d5851b6d.png">
+<img width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206524443-59ff9b98-fa5b-4ba3-a09d-7648d5851b6d.png">
 
 The Confusion matrix for the ensemble model is as follows:
 
