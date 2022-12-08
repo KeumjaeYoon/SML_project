@@ -27,7 +27,7 @@ _____________________
 
 _____________________
 
-- **_ResNet_**
+- ### ResNet
 
 It is a model used as a baseline in many studies.
 
@@ -35,13 +35,13 @@ It is a model used as a baseline in many studies.
 
 _____________________
 
-- **_ResNext & Res2Net_**
+- ### ResNext & Res2Net
 
 <p align="center"><img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532661-8eda6a12-5856-4947-beff-9c88db7cd3a3.png">
 
 _____________________
 
-- **_SEResNet_**
+- ### SEResNet
 
 <p align="center"><img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532809-cac890d6-fe44-498f-a516-c9c9b4d4f8bd.png">
 
@@ -52,19 +52,19 @@ We believed that the **how to train the model** is as important as determining w
 
 So, we try to apply various loss functions about a multi-class classification.
 
-- **_1. CrossEntropyLoss_**
+### 1. CrossEntropyLoss
 
 <p align="center"><img width="755" alt="image" src="https://user-images.githubusercontent.com/76990589/206486514-d089d623-23fc-4991-bbcf-99cf129e060b.png">
 
 _____________________
 
-- **_2. LabelSmoothing_**
+### 2. LabelSmoothing
 
 <p align="center"><img width="768" alt="image" src="https://user-images.githubusercontent.com/76990589/206486463-29cb0848-36a9-462e-ae91-73b032f4bf91.png">
 
 _____________________
 
-- **_3. ElasticLoss_**
+### 3. ElasticLoss
 
 <p align="center"><img width="720" alt="image" src="https://user-images.githubusercontent.com/76990589/206460495-4c710f51-7d25-41de-ae16-57c457e2cd7d.png">
 
