@@ -16,13 +16,13 @@ We trained a few models, but we selected models have a good performance as final
 
 - **_EfficientNet_**
 
-<img align="center" width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206531307-b4da829c-5b7c-4d75-b798-fc4dd6ed6326.png">
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206531307-b4da829c-5b7c-4d75-b798-fc4dd6ed6326.png">
 
 _____________________
 
 - **_EfficientNetV2_**
 
-<img align="center" width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532134-a11ba31c-5d6b-4f93-8fcb-8690a978a5e8.png">
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532134-a11ba31c-5d6b-4f93-8fcb-8690a978a5e8.png">
 
 _____________________
 
@@ -30,19 +30,19 @@ _____________________
 
 It is a model used as a baseline in many studies.
 
-<img align="center" width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206531713-d06be0a9-1e95-4c96-8c89-eed657ccade0.png">
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206531713-d06be0a9-1e95-4c96-8c89-eed657ccade0.png">
 
 _____________________
 
 - **_ResNext & Res2Net_**
 
-<img align="center" width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532661-8eda6a12-5856-4947-beff-9c88db7cd3a3.png">
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532661-8eda6a12-5856-4947-beff-9c88db7cd3a3.png">
 
 _____________________
 
 - **_SEResNet_**
 
-<img align="center" width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532809-cac890d6-fe44-498f-a516-c9c9b4d4f8bd.png">
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532809-cac890d6-fe44-498f-a516-c9c9b4d4f8bd.png">
 
 _____________________
 
@@ -59,30 +59,30 @@ _____________________
 
 - **_2. LabelSmoothing_**
 
-<img align="center" width="768" alt="image" src="https://user-images.githubusercontent.com/76990589/206486463-29cb0848-36a9-462e-ae91-73b032f4bf91.png">
+<p align="center"><img width="768" alt="image" src="https://user-images.githubusercontent.com/76990589/206486463-29cb0848-36a9-462e-ae91-73b032f4bf91.png">
 
 _____________________
 
 - **_3. ElasticLoss_**
 
-<img align="center" width="720" alt="image" src="https://user-images.githubusercontent.com/76990589/206460495-4c710f51-7d25-41de-ae16-57c457e2cd7d.png">
+<p align="center"><img width="720" alt="image" src="https://user-images.githubusercontent.com/76990589/206460495-4c710f51-7d25-41de-ae16-57c457e2cd7d.png">
 
 _____________________
 
 The plot below shows the difference in performance according to the loss function
 
-<img align="center" width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206478140-ab5813b5-074f-473d-a4e8-a58c985b720c.png">
+<p align="center"><img width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206478140-ab5813b5-074f-473d-a4e8-a58c985b720c.png">
 
 
 ## Ensemble
 
 The results of a single model are as follows:
 
-<img align="center" width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206517124-5c8ac9b8-8d55-4817-9561-b3976072710d.png">
+<p align="center"><img width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206517124-5c8ac9b8-8d55-4817-9561-b3976072710d.png">
 
 Next, we check confusion matrixs of a single model, respectively.
 
-<img align="center" width="700" height="700" alt="image" src="https://user-images.githubusercontent.com/76990589/206514125-71f0dcf2-3fdb-468a-b7c0-ee4c9f65715b.png">
+<p align="center"><img width="700" height="700" alt="image" src="https://user-images.githubusercontent.com/76990589/206514125-71f0dcf2-3fdb-468a-b7c0-ee4c9f65715b.png">
 
 We find that models have each power for classes, respectively.
 
@@ -93,21 +93,21 @@ On the contrary,  model B has a good performance for class "cat", but model A do
 Considering the characteristics of each model, we decided to make an ensemble model using soft voting.
 We try to find an optimal combination for the 6 models selected above.
 
-<img align="center" width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206524443-59ff9b98-fa5b-4ba3-a09d-7648d5851b6d.png">
+<p align="center"><img width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206524443-59ff9b98-fa5b-4ba3-a09d-7648d5851b6d.png">
 
 The Confusion matrix for the ensemble model is as follows:
 
-<img align="center" width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206525302-ca73f102-6b11-4dfe-8f58-02cd76afc32b.png">
+<p align="center"><img width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206525302-ca73f102-6b11-4dfe-8f58-02cd76afc32b.png">
 
 **Visualization with Grad-CAM**
 
-<img align="center" width="664" alt="image" src="https://user-images.githubusercontent.com/76990589/206525516-540aaec2-a034-453e-a6db-24c737d5079c.png">
+<p align="center"><img width="664" alt="image" src="https://user-images.githubusercontent.com/76990589/206525516-540aaec2-a034-453e-a6db-24c737d5079c.png">
 
 
 ## Result
 
 As mentioned at the beginning, we used the 2400 data we collected as a test dataset to verify the performance.
 
-<img align="center" width="1200" height="700" alt="image" src="https://user-images.githubusercontent.com/76990589/206528158-0dd359ac-8d5c-4906-b670-0d8f1832b6f4.png">
+<p align="center"><img width="1200" height="700" alt="image" src="https://user-images.githubusercontent.com/76990589/206528158-0dd359ac-8d5c-4906-b670-0d8f1832b6f4.png">
 
 Although the performance of a single model was poor, we show robustness in overall performance **because we implemented an ensemble.**
