@@ -49,11 +49,13 @@ Next, we check confusion matrixs of a single model, respectively.
 
 <img width="297" alt="image" src="https://user-images.githubusercontent.com/76990589/206514125-71f0dcf2-3fdb-468a-b7c0-ee4c9f65715b.png">
 
-we find that models have each power for classes, respectively.
+We find that models have each power for classes, respectively.
 
-For example, there are "A", "B" models have a similar performance.
+For example, there are models A and B have a similar performance.
+However, model A has a good performance for class "dog", but model B does not. 
+On the contrary,  model B has a good performance for class "cat", but model A does not.
 
-However, "A" model has a good performance for class "dog", but "B" model is not. On the contrary,  
+So we decide to make an ensemble model to consider characteristics for each model.
 
 
 
