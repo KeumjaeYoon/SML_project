@@ -14,13 +14,14 @@ After training a model with CIFAR10, we test the model with a dataset we collect
 
 We trained a few models, but we selected models have a good performance as final models.
 
-- **_EfficientNet_**
+### EfficientNet
 
 <p align="center"><img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206531307-b4da829c-5b7c-4d75-b798-fc4dd6ed6326.png">
 
 _____________________
-
-- **_EfficientNetV2_**
+  
+  
+### EfficientNet
 
 <p align="center"><img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532134-a11ba31c-5d6b-4f93-8fcb-8690a978a5e8.png">
 
@@ -47,7 +48,7 @@ _____________________
 _____________________
 
 ## Loss
-We believed that the how to train the model is as important as determining which the model to use.
+We believed that the **how to train the model** is as important as determining which the model to use.
 
 So, we try to apply various loss functions about a multi-class classification.
 
@@ -90,8 +91,8 @@ For example, there are models A and B have a similar performance.
 However, model A has a good performance for class "dog", but model B does not. 
 On the contrary,  model B has a good performance for class "cat", but model A does not.
 
-Considering the characteristics of each model, we decided to make an ensemble model using soft voting.
-We try to find an optimal combination for the 6 models selected above.
+**Considering the characteristics of each model**, we decided to make an ensemble model using soft voting.
+We try to **find an optimal combination** for the selected models.
 
 <p align="center"><img width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206524443-59ff9b98-fa5b-4ba3-a09d-7648d5851b6d.png">
 
@@ -108,6 +109,6 @@ The Confusion matrix for the ensemble model is as follows:
 
 As mentioned at the beginning, we used the 2400 data we collected as a test dataset to verify the performance.
 
-<p align="center"><img width="1200" height="700" alt="image" src="https://user-images.githubusercontent.com/76990589/206528158-0dd359ac-8d5c-4906-b670-0d8f1832b6f4.png">
+<p align="center"><img width="1400" height="700" alt="image" src="https://user-images.githubusercontent.com/76990589/206528158-0dd359ac-8d5c-4906-b670-0d8f1832b6f4.png">
 
 Although the performance of a single model was poor, we show robustness in overall performance **because we implemented an ensemble.**
