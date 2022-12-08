@@ -25,14 +25,17 @@ We believed that the how to train the model is as important as determining which
 So, we try to apply various loss functions about a multi-class classification.
 
 1. CrossEntropyLoss
+
 <img width="755" alt="image" src="https://user-images.githubusercontent.com/76990589/206486514-d089d623-23fc-4991-bbcf-99cf129e060b.png">
 
 
 2. LabelSmoothing
+
 <img width="768" alt="image" src="https://user-images.githubusercontent.com/76990589/206486463-29cb0848-36a9-462e-ae91-73b032f4bf91.png">
 
 
 3. ElasticLoss
+
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/76990589/206460495-4c710f51-7d25-41de-ae16-57c457e2cd7d.png">
 
 - The plot below shows the difference in performance according to the loss function
@@ -55,7 +58,11 @@ For example, there are models A and B have a similar performance.
 However, model A has a good performance for class "dog", but model B does not. 
 On the contrary,  model B has a good performance for class "cat", but model A does not.
 
-So we decide to make an ensemble model to consider characteristics for each model.
+Considering the characteristics of each model, we decided to make an ensemble model using soft voting.
+We try to find an optimal combination for the 6 models selected above.
+
+<img width="402" alt="image" src="https://user-images.githubusercontent.com/76990589/206524443-59ff9b98-fa5b-4ba3-a09d-7648d5851b6d.png">
+
 
 
 
