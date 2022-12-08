@@ -79,6 +79,6 @@ The Confusion matrix for the ensemble model is as follows:
 
 As mentioned at the beginning, we used the 2400 data we collected as a test dataset to verify the performance.
 
-<img width="700" height="700" alt="image" src="https://user-images.githubusercontent.com/76990589/206528158-0dd359ac-8d5c-4906-b670-0d8f1832b6f4.png">
+<img width="1200" height="700" alt="image" src="https://user-images.githubusercontent.com/76990589/206528158-0dd359ac-8d5c-4906-b670-0d8f1832b6f4.png">
 
 Although the performance of a single model was poor, we show robustness in overall performance **because we implemented an ensemble.**
