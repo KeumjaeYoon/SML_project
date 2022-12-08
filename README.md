@@ -24,17 +24,17 @@ We believed that the how to train the model is as important as determining which
 
 So, we try to apply various loss functions about a multi-class classification.
 
-**_1. CrossEntropyLoss_**
+**1. CrossEntropyLoss**
 
 <img width="755" alt="image" src="https://user-images.githubusercontent.com/76990589/206486514-d089d623-23fc-4991-bbcf-99cf129e060b.png">
 
 
-**_2. LabelSmoothing_**
+**2. LabelSmoothing**
 
 <img width="768" alt="image" src="https://user-images.githubusercontent.com/76990589/206486463-29cb0848-36a9-462e-ae91-73b032f4bf91.png">
 
 
-**_3. ElasticLoss_**
+**3. ElasticLoss**
 
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/76990589/206460495-4c710f51-7d25-41de-ae16-57c457e2cd7d.png">
 
@@ -63,7 +63,13 @@ We try to find an optimal combination for the 6 models selected above.
 
 <img width="402" alt="image" src="https://user-images.githubusercontent.com/76990589/206524443-59ff9b98-fa5b-4ba3-a09d-7648d5851b6d.png">
 
+The Confusion matrix for the ensemble model is as follows:
 
+<img width="387" alt="image" src="https://user-images.githubusercontent.com/76990589/206525302-ca73f102-6b11-4dfe-8f58-02cd76afc32b.png">
+
+**Visualization with Grad-CAM**
+
+<img width="664" alt="image" src="https://user-images.githubusercontent.com/76990589/206525516-540aaec2-a034-453e-a6db-24c737d5079c.png">
 
 
 ## Result
