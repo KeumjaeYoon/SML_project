@@ -19,7 +19,8 @@ After training a model with CIFAR10, we test the model with a dataset we collect
 1. CrossEntropyLoss
 2. LabelSmoothing
 3. ElasticLoss
-<img width="439" alt="image" src="https://user-images.githubusercontent.com/76990589/206460313-5f7984e9-36f9-446e-943e-c4c26bd2b12f.png">
+<img width="720" alt="image" src="https://user-images.githubusercontent.com/76990589/206460495-4c710f51-7d25-41de-ae16-57c457e2cd7d.png">
+
 
 ## Ensemble
 
