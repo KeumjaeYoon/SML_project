@@ -50,7 +50,7 @@ The results of a single model are as follows:
 
 Next, we check confusion matrixs of a single model, respectively.
 
-<img width="500" height="500" alt="image" src="https://user-images.githubusercontent.com/76990589/206514125-71f0dcf2-3fdb-468a-b7c0-ee4c9f65715b.png">
+<img width="700" height="700" alt="image" src="https://user-images.githubusercontent.com/76990589/206514125-71f0dcf2-3fdb-468a-b7c0-ee4c9f65715b.png">
 
 We find that models have each power for classes, respectively.
 
