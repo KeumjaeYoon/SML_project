@@ -14,14 +14,14 @@ After training a model with CIFAR10, we test the model with a dataset we collect
 
 We trained a few models, but we selected models have a good performance as final models.
 
-### EfficientNet
+- ### EfficientNet
 
 <p align="center"><img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206531307-b4da829c-5b7c-4d75-b798-fc4dd6ed6326.png">
 
 _____________________
   
   
-### EfficientNet
+- ### EfficientNet
 
 <p align="center"><img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532134-a11ba31c-5d6b-4f93-8fcb-8690a978a5e8.png">
 
