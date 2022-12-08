@@ -49,9 +49,11 @@ Next, we check confusion matrixs of a single model, respectively.
 
 <img width="297" alt="image" src="https://user-images.githubusercontent.com/76990589/206514125-71f0dcf2-3fdb-468a-b7c0-ee4c9f65715b.png">
 
-we find that model has each power for classes, respectively.
+we find that models have each power for classes, respectively.
 
-For example, 
+For example, there are "A", "B" models have a similar performance.
+
+However, "A" model has a good performance for class "dog", but "B" model is not. On the contrary,  
 
 
 
