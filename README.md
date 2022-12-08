@@ -20,6 +20,7 @@ After training a model with CIFAR10, we test the model with a dataset we collect
 2. LabelSmoothing
 3. ElasticLoss
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/76990589/206460495-4c710f51-7d25-41de-ae16-57c457e2cd7d.png">
+<img width="322" alt="image" src="https://user-images.githubusercontent.com/76990589/206478140-ab5813b5-074f-473d-a4e8-a58c985b720c.png">
 
 
 ## Ensemble
