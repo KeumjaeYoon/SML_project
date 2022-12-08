@@ -1,4 +1,4 @@
-# SML_project
+# SML_Team project
 
 Team Project in Statistical machine learning 
 
