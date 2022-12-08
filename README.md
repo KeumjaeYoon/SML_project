@@ -9,22 +9,28 @@ After training a model with CIFAR10, we test the model with a dataset we collect
 
 
 ## Models
+
+We trained a few models, but we selected models have a good performance as final models.
+
 - Res2Net50
 - SEResNext101
 - EfficientNet_b0
 - EfficientNet_lite2
 - EfficientNet
+- ResNet50
 
 ## Loss
 We believed that the how to train the model is as important as determining which the model to use.
 
-So, we try to adapt various loss functions.
+So, we try to apply various loss functions about a multi-class classification.
 
 1. CrossEntropyLoss
-<img width="775" alt="image" src="https://user-images.githubusercontent.com/76990589/206486186-12247539-ff9a-481c-bc02-0ca31c2c5665.png">
+<img width="755" alt="image" src="https://user-images.githubusercontent.com/76990589/206486514-d089d623-23fc-4991-bbcf-99cf129e060b.png">
+
 
 2. LabelSmoothing
-<img width="787" alt="image" src="https://user-images.githubusercontent.com/76990589/206486229-b2379182-b7da-4a74-a5ac-b8c905455155.png">
+<img width="768" alt="image" src="https://user-images.githubusercontent.com/76990589/206486463-29cb0848-36a9-462e-ae91-73b032f4bf91.png">
+
 
 3. ElasticLoss
 <img width="720" alt="image" src="https://user-images.githubusercontent.com/76990589/206460495-4c710f51-7d25-41de-ae16-57c457e2cd7d.png">
@@ -35,6 +41,14 @@ So, we try to adapt various loss functions.
 
 
 ## Ensemble
+The results of a single model are as follows:
+<img width="330" alt="image" src="https://user-images.githubusercontent.com/76990589/206513684-a438fd42-e65f-4683-82e0-046ef7dac8a1.png">
+
+Next, we check confusion matrixs of a single model, respectively.
+<img width="297" alt="image" src="https://user-images.githubusercontent.com/76990589/206514125-71f0dcf2-3fdb-468a-b7c0-ee4c9f65715b.png">
+
+we find that each model has the class
+
 
 
 ## Result
