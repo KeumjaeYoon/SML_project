@@ -16,12 +16,16 @@ We trained a few models, but we selected models have a good performance as final
 
 - ### EfficientNet
 
+[Efficientnet: Rethinking model scaling for convolutional neural networks](http://proceedings.mlr.press/v97/tan19a.html)
+
 <p align="center"><img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206531307-b4da829c-5b7c-4d75-b798-fc4dd6ed6326.png">
 
 _____________________
   
   
-- ### EfficientNet
+- ### EfficientNetV2
+
+[Efficientnetv2: Smaller models and faster training](http://proceedings.mlr.press/v139/tan21a.html)
 
 <p align="center"><img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532134-a11ba31c-5d6b-4f93-8fcb-8690a978a5e8.png">
 
