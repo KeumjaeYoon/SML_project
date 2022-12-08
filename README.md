@@ -14,26 +14,27 @@ After training a model with CIFAR10, we test the model with a dataset we collect
 
 We trained a few models, but we selected models have a good performance as final models.
 
-- ResNet50
-
-It is a model used as a baseline in many studies.
-
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/76990589/206531713-d06be0a9-1e95-4c96-8c89-eed657ccade0.png">
-
-
-- Res2Net50
-
-
-
-- SEResNext101
-
-- EfficientNet_b0
+- **_EfficientNet_**
 
 <img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206531307-b4da829c-5b7c-4d75-b798-fc4dd6ed6326.png">
 
-- EfficientNet_lite2
-- EfficientNetV2
+- **_EfficientNetV2_**
 
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532134-a11ba31c-5d6b-4f93-8fcb-8690a978a5e8.png">
+
+- **_ResNet_**
+
+It is a model used as a baseline in many studies.
+
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206531713-d06be0a9-1e95-4c96-8c89-eed657ccade0.png">
+
+- **_ResNext & Res2Net_**
+
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532661-8eda6a12-5856-4947-beff-9c88db7cd3a3.png">
+
+- **_SEResNet_**
+
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/76990589/206532809-cac890d6-fe44-498f-a516-c9c9b4d4f8bd.png">
 
 ## Loss
 We believed that the how to train the model is as important as determining which the model to use.
