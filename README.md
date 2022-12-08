@@ -42,9 +42,11 @@ So, we try to apply various loss functions about a multi-class classification.
 
 ## Ensemble
 The results of a single model are as follows:
+
 <img width="330" alt="image" src="https://user-images.githubusercontent.com/76990589/206513684-a438fd42-e65f-4683-82e0-046ef7dac8a1.png">
 
 Next, we check confusion matrixs of a single model, respectively.
+
 <img width="297" alt="image" src="https://user-images.githubusercontent.com/76990589/206514125-71f0dcf2-3fdb-468a-b7c0-ee4c9f65715b.png">
 
 we find that each model has the class
