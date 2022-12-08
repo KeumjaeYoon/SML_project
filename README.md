@@ -53,7 +53,7 @@ So, we try to apply various loss functions about a multi-class classification.
 
 - **_1. CrossEntropyLoss_**
 
-<img align="center" width="755" alt="image" src="https://user-images.githubusercontent.com/76990589/206486514-d089d623-23fc-4991-bbcf-99cf129e060b.png">
+<p align="center"><img width="755" alt="image" src="https://user-images.githubusercontent.com/76990589/206486514-d089d623-23fc-4991-bbcf-99cf129e060b.png">
 
 _____________________
 
